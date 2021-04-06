@@ -40,7 +40,8 @@ public class Arrays {
         // Set "HashSet"
 
         HashSet<String> mySet = new HashSet<>();
-        mySet.add("James");
+        // mySet.add("James");
+        // (List aynı elemandan sadece 1 tane alabilir!)
         mySet.add("James");
         System.out.println(mySet.size());
 
@@ -52,7 +53,7 @@ public class Arrays {
         System.out.println(myHashMap.get("Name"));
         System.out.println(myHashMap.get("Enstrument"));
 
-        HashMap<String, Integer> mySecMap = new HashMap<String, Integer>();
+        HashMap<String, Integer> mySecMap = new HashMap<>();
         mySecMap.put("run", 100);
         mySecMap.put("Basketball", 200);
         System.out.println(mySecMap.get("run"));
